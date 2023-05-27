@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>No.19, Xinjiekouwai St</p>
-    <p>Haidian District</p>
-    <p>Beijing,100875, P.R.China</p>
+    <p>Haidian District,</p>
+    <p>Beijing, 100875, P.R.China</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
