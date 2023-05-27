@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://aleeyang.github.io/al-folio/sitemap.xml
+Sitemap: https://www.yangfu.site/sitemap.xml
