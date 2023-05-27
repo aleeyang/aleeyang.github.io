@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://english.bnu.edu.cn/'>Beijing Normal University</a>. 
+subtitle: <a href='https://english.bnu.edu.cn/'>Beijing Normal University</a>
 
 profile:
   align: right
@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Master of School of Artificial Intelligence, Beijing Normal University, supervised by[Prof. Yongzhen Huang]('https://scholar.google.com/citations?user=OH7-k7oAAAAJ&hl=en') and [Prof. Saihui Hou]('https://hshustc.github.io/).
+I am a Master of School of Artificial Intelligence, Beijing Normal University, supervised by [Prof. Yongzhen Huang]('https://scholar.google.com/citations?user=OH7-k7oAAAAJ&hl=en') and [Prof. Saihui Hou]('https://hshustc.github.io/).
 
 My research interests include:
 
