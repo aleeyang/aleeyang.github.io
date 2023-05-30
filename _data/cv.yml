@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 5th December 1999
     - name: Languages
-      value: English, Chinese, German, French
+      value: Chinese, English, German, French
 
 - title: Education
   type: time_table
