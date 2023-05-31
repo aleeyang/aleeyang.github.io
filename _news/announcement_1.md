@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-(Awesome Gait Recognition)[https://github.com/BNU-IVC/Awesome-Gait-Recognition] is released.
+[Awesome Gait Recognition](https://github.com/BNU-IVC/Awesome-Gait-Recognition) is released.
