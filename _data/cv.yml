@@ -36,6 +36,9 @@
     - title: <a href="https://github.com/BNU-IVC/Awesome-Gait-Recognition">Awesome Gait Recognition</a>
       year: 2023-now
       description: A curated list of Gait Recognition and related area resources. 
+    - title: <a href="https://github.com/BNU-IVC/FastPoseGait">FastPoseGait</a>
+      year: 2023-now
+      description: FastPoseGait is a user-friendly and flexible repository that aims to help researchers get started on pose-based gait recognition quickly.. 
 
 - title: Honors and Awards
   type: time_table
