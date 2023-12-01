@@ -43,9 +43,15 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items: 
+        - Graduate Academic Innovation Award
+    - year: 2023
+      items: 
+        - Graduate National Scholarship
     - year: 2022
       items: 
-        - National Scholarship
+        - Undergraduate National Scholarship
     - year: 2022
       items: 
         - Outstanding graduate of Sichuan Province
@@ -56,7 +62,6 @@
     - title: Topic 1.
       items: 
         - Biometric Identification.
-        - Multimodal Machine Learning.
     - title: Topic 2.
       items:
         - Robust Computer Vision.

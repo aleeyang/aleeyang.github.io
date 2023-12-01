@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Master of School of Artificial Intelligence, Beijing Normal University, supervised by <a href='https://scholar.google.com/citations?user=OH7-k7oAAAAJ&hl=en'>Prof. Yongzhen Huang</a> and <a href='https://hshustc.github.io/'>Prof. Saihui Hou</a>
+I am a Master of School of Artificial Intelligence, Beijing Normal University, supervised by <a href='https://scholar.google.com/citations?user=OH7-k7oAAAAJ&hl=en'>Prof. Yongzhen Huang</a> and <a href='https://hshustc.github.io/'>Prof. Saihui Hou.</a>
 
 My research interests include:
 
