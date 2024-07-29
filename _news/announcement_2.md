@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[FastPoseGait](https://github.com/BNU-IVC/FastPoseGait) is released.
+*GPGait* is accepted by ICCV2023 [[Paper]](https://arxiv.org/abs/2303.05234) [[Code]](https://github.com/BNU-IVC/FastPoseGait).
