@@ -1,8 +1,7 @@
 main:
 
   - title: "Cut out the Middleman: Revisiting Pose-based Gait Recognition"
-    authors: <strong>Yang Fu</strong>, Saihui Hou, Shibe Meng, Xuecai Hu*, ChunshuiCao, Xu Liu, Yongzhen Huang* (*Corresponding authors)
-    conference_short: ECCV
+    authors: <strong>Yang Fu</strong>, Saihui Hou, Shibe Meng, Xuecai Hu, ChunshuiCao, Xu Liu, Yongzhen Huang
     conference: The 18th European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     pdf: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04501.pdf
     code: https://github.com/BNU-IVC/FastPoseGait
@@ -10,7 +9,8 @@ main:
     image: ./assets/img/2024_eccv_gaitheat.png
 
   - title: "GPGait: Generalized Pose-based Gait Recognition."
-    authors: <strong>Yang Fu</strong>, Shibe Meng, Saihui Hou*, Xuecai Hu, Yongzhen Huang*
+    authors: <strong>Yang Fu*</strong>, Shibe Meng*, Saihui Hou, Xuecai Hu, Yongzhen Huang (* Both authors contributed equally to this research.)
+    conference_short: ECCV
     conference_short: ICCV
     conference: The Thirty Fourth IEEE/CVF Conference on International Conference on Computer Vision (ICCV), 2023.
     pdf: https://openaccess.thecvf.com/content/ICCV2023/papers/Fu_GPGait_Generalized_Pose-based_Gait_Recognition_ICCV_2023_paper.pdf
@@ -19,7 +19,7 @@ main:
     image: ./assets/img/2023_iccv_gpgait.png
 
   - title: "FastPoseGait: A Toolbox and Benchmark for Efficient Pose-based Gait Recognition"
-    authors: Shibei Meng, <strong>Yang Fu</strong>, Saihui Hou*, Xuecai Hu, Yongzhen Huang* 
+    authors: Shibei Meng*, <strong>Yang Fu*</strong>, Saihui Hou*, Xuecai Hu, Yongzhen Huang 
     conference_short: arXiv
     conference: arXiv, preprint
     pdf: https://arxiv.org/pdf/2002.10211.pdf
@@ -29,7 +29,7 @@ main:
     image: ./assets/img/2023_arxiv_fastposegait.png
 
   - title: "Gait Recognition with Drones: A Benchmark"
-    authors: Aoqi Li, Saihui Hou*, Qingyuan Cai, <strong>Yang Fu</strong>, Yongzhen Huang*
+    authors: Aoqi Li, Saihui Hou, Qingyuan Cai, <strong>Yang Fu</strong>, Yongzhen Huang*
     conference_short: TMM
     conference: IEEE Transactions on Multimedia
     pdf: https://ieeexplore.ieee.org/document/10243069/
