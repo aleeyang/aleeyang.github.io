@@ -8,15 +8,15 @@ I am a third-year M.S. student at [Beijing Normal University](https://english.bn
 
 ## Research Interests
 
-- **Computer Vision:** biometrics, video generation, Multimodal Large Language Models
+- **Computer Vision:** biometrics, video generation, multimodal large language models
 - **Machine Learning:** incremental learning, transfer learning
 - **Human Computer iteraction:** human creativity supporting
 
 ## News
-- **[Nov. 2024]** I lead a team that won first prize in the Multimodal track and third prize in the Pose track at the ACM MM'24 Multimodal Gait Recognition Challenge.
-- **[Oct. 2024]** Our paper about biometrics is accepted to ECCV 2024.
-- **[Dec. 2023]** Our technical paper on an open-source framework for gait recognition is now available as a preprint on arXiv.
-- **[Jan. 2023]** Our paper about biometrics is accepted to ICCV 2023.
+- **[Nov. 2024]** I lead a team that won **first prize** in the Multimodal track and third prize in the Pose track at the **ACM MM'24 Multimodal Gait Recognition Challenge**.
+- **[Oct. 2024]** One paper about biometrics is accepted to **ECCV 2024**.
+- **[Dec. 2023]** One **technical paper** on an open-source framework for gait recognition is now available as a preprint on arXiv.
+- **[Jan. 2023]** One paper about biometrics is accepted to **ICCV 2023**.
 
 
 {% include_relative _includes/publications.md %}

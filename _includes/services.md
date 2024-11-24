@@ -14,3 +14,10 @@
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046"><autocolor>IEEE Transactions on Multimedia(TMM)</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/pattern-recognition"><autocolor>Pattern Recognition (PR)</autocolor></a></li>
 </ul>
+
+<h4 style="margin:0 10px 0;">Public Service</h4>
+
+<ul style="margin:0 0 20px;">
+  <li><a href="https://english.bnu.edu.cn/"><autocolor>The president of the AI Club in Beijing Normal University 2023</autocolor></a></li>
+  <li><a href="https://english.bnu.edu.cn/"><autocolor>Teaching Assitant, Intelligent Perception and Mobile Computing 2023</autocolor></a></li>
+</ul>
