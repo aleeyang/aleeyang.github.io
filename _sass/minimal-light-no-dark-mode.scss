@@ -160,7 +160,7 @@ papertitle {
 }
 
 .image.avatar {
-    border-radius: 0.35em; /* Change from 100% to 0.35em or any other value for non-circular */
+    border-radius: 0.35em; /* Ensures rounded corners, not circular */
 }
 
 .image.avatar:before {
@@ -168,14 +168,13 @@ papertitle {
 }
 
 .image.avatar img {
-    width: 100%; /* Adjust to 100% to fill the container, or set a specific size */
+    width: 150%; /* Increase width to make the image larger */
     height: auto; /* Maintain aspect ratio */
-    /* You can add padding, border, or box-shadow if needed */
 }
 
 #header .image.avatar {
     margin: 0 0 1em 0;
-    width: 12em; /* Increase size from 8em to 12em or any desired size */
+    width: 16em; /* Further increase size from 12em to 16em or any desired size */
 }
 
 h3, h4, h5, h6 {
