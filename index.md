@@ -22,3 +22,5 @@ I am a third-year M.S. student at [Beijing Normal University](https://english.bn
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+{% include_relative _includes/honors.md %}
