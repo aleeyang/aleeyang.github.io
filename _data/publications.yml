@@ -19,7 +19,7 @@ main:
     image: ./assets/img/2023_iccv_gpgait.png
 
   - title: "FastPoseGait: A Toolbox and Benchmark for Efficient Pose-based Gait Recognition"
-    authors: Shibei Meng*, <strong>Yang Fu*</strong>, Saihui Hou*, Xuecai Hu, Yongzhen Huang 
+    authors: Shibei Meng*, <strong>Yang Fu*</strong>, Saihui Hou, Xuecai Hu, Yongzhen Huang 
     conference_short: arXiv
     conference: arXiv, preprint
     pdf: https://arxiv.org/pdf/2002.10211.pdf
@@ -29,7 +29,7 @@ main:
     image: ./assets/img/2023_arxiv_fastposegait.png
 
   - title: "Gait Recognition with Drones: A Benchmark"
-    authors: Aoqi Li, Saihui Hou, Qingyuan Cai, <strong>Yang Fu</strong>, Yongzhen Huang*
+    authors: Aoqi Li, Saihui Hou, Qingyuan Cai, <strong>Yang Fu</strong>, Yongzhen Huang
     conference_short: TMM
     conference: IEEE Transactions on Multimedia
     pdf: https://ieeexplore.ieee.org/document/10243069/
