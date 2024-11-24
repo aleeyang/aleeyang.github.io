@@ -4,19 +4,20 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a third-year M.S. student at [Beijing Normal University](https://english.bnu.edu.cn/), under the supervision of [Professor Yongzhen Huang](https://ai.bnu.edu.cn/xygk/szdw/zgj/bfed57e2f8fc4de2a6b370063517f801.htm). I earned my bachelor's degree with first-class honors from [Xihua University](https://english.xhu.edu.cn/).
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Computer Vision:** biometrics, video generation, Multimodal Large Language Models
+- **Machine Learning:** incremental learning, transfer learning
+- **Human Computer iteraction:** human creativity supporting
 
 ## News
+- **[Nov. 2024]** I lead a team that won first prize in the Multimodal track and third prize in the Pose track at the ACM MM'24 Multimodal Gait Recognition Challenge.
+- **[Oct. 2024]** Our paper about biometrics is accepted to ECCV 2024.
+- **[Dec. 2023]** Our technical paper on an open-source framework for gait recognition is now available as a preprint on arXiv.
+- **[Jan. 2023]** Our paper about biometrics is accepted to ICCV 2023.
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
 
 {% include_relative _includes/publications.md %}
 
