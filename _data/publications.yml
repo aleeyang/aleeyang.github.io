@@ -1,22 +1,40 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+  - title: "Cut out the Middleman: Revisiting Pose-based Gait Recognition"
+    authors: <strong>Yang Fu</strong>, Saihui Hou, Shibe Meng, Xuecai Hu*, ChunshuiCao, Xu Liu, Yongzhen Huang* (*Corresponding authors)
+    conference_short: ECCV
+    conference: The 18th European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    pdf: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04501.pdf
+    code: https://github.com/BNU-IVC/FastPoseGait
+    bibtex: https://www.yangfu.site/assets/txt/2024_ECCV_GaitHeat_Bib.txt
+    image: ./assets/img/2024_eccv_gaitheat.png
     notes: Early Accept
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+  - title: "GPGait: Generalized Pose-based Gait Recognition."
+    authors: <strong>Yang Fu</strong>, Shibe Meng, Saihui Hou*, Xuecai Hu, Yongzhen Huang*
+    conference_short: ICCV
+    conference: The Thirty Fourth IEEE/CVF Conference on International Conference on Computer Vision (ICCV), 2023.
+    pdf: https://openaccess.thecvf.com/content/ICCV2023/papers/Fu_GPGait_Generalized_Pose-based_Gait_Recognition_ICCV_2023_paper.pdf
+    code: https://github.com/BNU-IVC/FastPoseGait
+    bibtex: https://www.yangfu.site/assets/txt/2023_ICCV_GPGait_Bib.txt
+    image: ./assets/img/2023_iccv_gpgait.png
+
+  - title: "FastPoseGait: A Toolbox and Benchmark for Efficient Pose-based Gait Recognition"
+    authors: Shibei Meng, <strong>Yang Fu</strong>, Saihui Hou*, Xuecai Hu, Yongzhen Huang* 
+    conference_short: arXiv
+    conference: arXiv, preprint
     pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    code: https://github.com/BNU-IVC/FastPoseGait
+    bibtex: https://www.yangfu.site/assets/txt/2023_arXiv_FastPoseGait_Bib.txt
+    notes: Technical Report
+    image: ./assets/img/2023_arxiv_fastposegait.png
+
+  - title: "Gait Recognition with Drones: A Benchmark"
+    authors: Aoqi Li, Saihui Hou*, Qingyuan Cai, <strong>Yang Fu</strong>, Yongzhen Huang*
+    conference_short: TMM
+    conference: IEEE Transactions on Multimedia
+    pdf: https://ieeexplore.ieee.org/document/10243069/
+    code: https://github.com/BNU-IVC/DroneGait
+    bibtex: https://www.yangfu.site/assets/txt/2023_TMM_DroneGait_Bib.txt
+    notes: Dataset Paper
+    image: ./assets/img/2023_tmm_dronegait.png

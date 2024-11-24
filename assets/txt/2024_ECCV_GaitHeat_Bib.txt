@@ -1,0 +1,22 @@
+@InProceedings{Gaitheat,
+author="Fu, Yang
+and Hou, Saihui
+and Meng, Shibei
+and Hu, Xuecai
+and Cao, Chunshui
+and Liu, Xu
+and Huang, Yongzhen",
+editor="Leonardis, Ale{\v{s}}
+and Ricci, Elisa
+and Roth, Stefan
+and Russakovsky, Olga
+and Sattler, Torsten
+and Varol, G{\"u}l",
+title="Cut Out the Middleman: Revisiting Pose-Based Gait Recognition",
+booktitle="Computer Vision -- ECCV 2024",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="112--128",
+isbn="978-3-031-72751-1"
+}
