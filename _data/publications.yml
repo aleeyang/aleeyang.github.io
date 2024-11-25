@@ -2,6 +2,7 @@ main:
 
   - title: "Cut out the Middleman: Revisiting Pose-based Gait Recognition"
     authors: <strong>Yang Fu</strong>, Saihui Hou, Shibe Meng, Xuecai Hu, ChunshuiCao, Xu Liu, Yongzhen Huang
+    conference_short: ECCV
     conference: The 18th European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     pdf: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04501.pdf
     code: https://github.com/BNU-IVC/FastPoseGait
@@ -10,7 +11,6 @@ main:
 
   - title: "GPGait: Generalized Pose-based Gait Recognition."
     authors: <strong>Yang Fu*</strong>, Shibe Meng*, Saihui Hou, Xuecai Hu, Yongzhen Huang (* Both authors contributed equally to this research.)
-    conference_short: ECCV
     conference_short: ICCV
     conference: The Thirty Fourth IEEE/CVF Conference on International Conference on Computer Vision (ICCV), 2023.
     pdf: https://openaccess.thecvf.com/content/ICCV2023/papers/Fu_GPGait_Generalized_Pose-based_Gait_Recognition_ICCV_2023_paper.pdf
