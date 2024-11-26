@@ -22,7 +22,7 @@ main:
     authors: Shibei Meng*, <strong>Yang Fu*</strong>, Saihui Hou, Xuecai Hu, Yongzhen Huang 
     conference_short: arXiv
     conference: arXiv, preprint
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    pdf: https://arxiv.org/abs/2309.00794
     code: https://github.com/BNU-IVC/FastPoseGait
     bibtex: https://www.yangfu.site/assets/txt/2023_arXiv_FastPoseGait_Bib.txt
     notes: Technical Report
