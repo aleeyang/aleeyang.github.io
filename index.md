@@ -13,6 +13,7 @@ I am a third-year M.S. student at [Beijing Normal University](https://english.bn
 - **Human Computer iteraction:** human creativity supporting
 
 ## News
+- **[Dec. 2024]** Invited talk at [Gait 2024 @ SUSTech](https://faculty.sustech.edu.cn/?tagid=yusq&iscss=1&snapid=1&orderby=date&go=2&lang=en)
 - **[Nov. 2024]** I lead a team that won **first prize** in the Multimodal track and third prize in the Pose track at the **ACM MM'24 Multimodal Gait Recognition Challenge**.
 - **[Oct. 2024]** One paper about biometrics is accepted to **ECCV 2024**.
 - **[Dec. 2023]** One **technical paper** on an open-source framework for gait recognition is now available as a preprint on arXiv.
