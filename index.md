@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a third-year M.S. student at [Beijing Normal University](https://english.bnu.edu.cn/), under the supervision of [Professor Yongzhen Huang](https://ai.bnu.edu.cn/xygk/szdw/zgj/bfed57e2f8fc4de2a6b370063517f801.htm). I earned my bachelor's degree with first-class honors from [Xihua University](https://english.xhu.edu.cn/).
+I am a third-year M.S. student at [Beijing Normal University](https://english.bnu.edu.cn/), under the supervision of [Professor Yongzhen Huang](https://ai.bnu.edu.cn/xygk/szdw/zgj/bfed57e2f8fc4de2a6b370063517f801.htm).
 
 ## Research Interests
 
