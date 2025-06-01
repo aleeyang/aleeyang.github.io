@@ -1,4 +1,12 @@
 main:
+  - title: "From FastPoseGait to GPGait++: Bridging the Past and Future for Pose-based Gait Recognition."
+    authors: Shibe Meng*, <strong>Yang Fu*</strong>, Saihui Hou, Xuecai Hu, Yongzhen Huang (* Both authors contributed equally to this research.)
+    conference_short: TPAMI
+    conference: Transactions on Pattern Analysis and Machine Intelligence(TPAMI), 2025
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./assets/img/2025_tpami_gpagit.png
 
   - title: "Cut out the Middleman: Revisiting Pose-based Gait Recognition"
     authors: <strong>Yang Fu</strong>, Saihui Hou, Shibe Meng, Xuecai Hu, ChunshuiCao, Xu Liu, Yongzhen Huang
