@@ -4,7 +4,8 @@ layout: homepage
 
 ## About Me
 
-I am a incoming PhD student at [Fudan University](https://www.fudan.edu.cn/en/), under the supervision of [Professor Henghui Ding](https://henghuiding.com/).
+<!-- I am a incoming PhD student at [Fudan University](https://www.fudan.edu.cn/en/), under the supervision of [Professor Henghui Ding](https://henghuiding.com/). -->
+I am a last year Master student at Beijing Normal University, under the supervision of [Professor Yongzhen Huang](https://ai.bnu.edu.cn/xygk/szdw/zgj/bfed57e2f8fc4de2a6b370063517f801.htm). 
 
 ## Research Interests
 
