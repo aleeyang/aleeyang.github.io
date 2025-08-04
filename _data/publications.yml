@@ -2,16 +2,17 @@ main:
   - title: "From FastPoseGait to GPGait++: Bridging the Past and Future for Pose-based Gait Recognition."
     authors: Shibei Meng, Saihui Hou, <strong>Yang Fu</strong>, Xuecai Hu, Junzhou Huang, Yongzhen Huang
     conference_short: ACM MM
-    conference: ACM International Conference on Multimedia , 2025
+    conference: ACM International Conference on Multimedia (MM), 2025.
     pdf: 
     code: https://github.com/BNU-IVC/StreamGait
     bibtex: 
+    notes: Dataset Paper
     image: ./assets/img/2025_mm_streamgait.jpg
 
   - title: "From FastPoseGait to GPGait++: Bridging the Past and Future for Pose-based Gait Recognition."
     authors: Shibe Meng*, <strong>Yang Fu*</strong>, Saihui Hou, Xuecai Hu, Yongzhen Huang (* Both authors contributed equally to this research.)
     conference_short: TPAMI
-    conference: Transactions on Pattern Analysis and Machine Intelligence(TPAMI), 2025
+    conference: Transactions on Pattern Analysis and Machine Intelligence(TPAMI), 2025.
     pdf: https://ieeexplore.ieee.org/document/11029177/
     code: https://github.com/BNU-IVC/FastPoseGait
     bibtex: https://www.yangfu.site/assets/txt/2025_TPAMI_GPGait++.txt
@@ -48,7 +49,7 @@ main:
   - title: "Gait Recognition with Drones: A Benchmark"
     authors: Aoqi Li, Saihui Hou, Qingyuan Cai, <strong>Yang Fu</strong>, Yongzhen Huang
     conference_short: TMM
-    conference: IEEE Transactions on Multimedia
+    conference: IEEE Transactions on Multimedia (TMM), 2023.
     pdf: https://ieeexplore.ieee.org/document/10243069/
     code: https://github.com/BNU-IVC/DroneGait
     bibtex: https://www.yangfu.site/assets/txt/2023_TMM_DroneGait_Bib.txt
