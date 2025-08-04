@@ -1,0 +1,10 @@
+@ARTICLE{11029177,
+  author={Meng, Shibei and Fu, Yang and Hou, Saihui and Hu, Xuecai and Cao, Chunshui and Liu, Xu and Huang, Yongzhen},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={From FastPoseGait to GPGait++: Bridging the Past and Future for Pose-based Gait Recognition}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-18},
+  keywords={Gait recognition;Training;Feature extraction;Data mining;Cameras;Benchmark testing;Artificial intelligence;Transformers;Three-dimensional displays;Semantics;Gait Recognition;Human Pose;Generalization Ability;Biometric Authentication;Graph Convolutional Network},
+  doi={10.1109/TPAMI.2025.3577594}}
