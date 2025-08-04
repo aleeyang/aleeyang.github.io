@@ -14,6 +14,7 @@ I am a first-year PhD student at [Fudan University](https://www.fudan.edu.cn/en/
 - **Human Computer iteraction:** human creativity supporting
 
 ## News
+- **[Jul. 2025]** One paper about biometrics is accepted to **MM 2025**.
 - **[Feb. 2025]** One paper about biometrics is accepted to **TPAMI2025**.
 - **[Feb. 2025]** Interned at [A*STAR](https://www.a-star.edu.sg/) for four months
 - **[Dec. 2024]** Invited talk at [Gait 2024 @ SUSTech](https://faculty.sustech.edu.cn/?tagid=yusq&iscss=1&snapid=1&orderby=date&go=2&lang=en)

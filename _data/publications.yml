@@ -1,5 +1,14 @@
 main:
   - title: "From FastPoseGait to GPGait++: Bridging the Past and Future for Pose-based Gait Recognition."
+    authors: Shibei Meng, Saihui Hou, Yang Fu, Xuecai Hu, Junzhou Huang, Yongzhen Huang
+    conference_short: ACM MM
+    conference: ACM International Conference on Multimedia , 2025
+    pdf: 
+    code: https://github.com/BNU-IVC/StreamGait
+    bibtex: 
+    image: ./assets/img/2025_mm_streamgait.jpg
+
+  - title: "From FastPoseGait to GPGait++: Bridging the Past and Future for Pose-based Gait Recognition."
     authors: Shibe Meng*, <strong>Yang Fu*</strong>, Saihui Hou, Xuecai Hu, Yongzhen Huang (* Both authors contributed equally to this research.)
     conference_short: TPAMI
     conference: Transactions on Pattern Analysis and Machine Intelligence(TPAMI), 2025
