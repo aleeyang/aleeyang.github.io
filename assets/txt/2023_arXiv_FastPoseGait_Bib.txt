@@ -1,6 +1,0 @@
-@article{meng2023fastposegait,
-  title={FastPoseGait: A Toolbox and Benchmark for Efficient Pose-based Gait Recognition},
-  author={Meng, Shibei and Fu, Yang and Hou, Saihui and Cao, Chunshui and Liu, Xu and Huang, Yongzhen},
-  journal={arXiv preprint arXiv:2309.00794},
-  year={2023}
-}

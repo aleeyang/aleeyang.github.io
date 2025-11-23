@@ -1,0 +1,185 @@
+:root {
+    --font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-header: 'Oswald', sans-serif;
+    /* Added for headers if desired, or stick to Helvetica */
+    --color-text: #222;
+    --color-link: #0066cc;
+    --color-link-hover: #004488;
+    --color-bg: #fff;
+    --color-meta: #666;
+    --max-width: 1170px;
+    /* Bootstrap container width */
+    --sidebar-width: 33.33333333%;
+    --main-width: 66.66666667%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #222;
+    border-color: #080808;
+    margin-bottom: 20px;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-links a {
+    color: #9d9d9d;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+/* Main Layout */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+    .sidebar {
+        width: var(--sidebar-width);
+        float: left;
+    }
+
+    .main-content {
+        width: var(--main-width);
+        float: left;
+    }
+}
+
+/* Sidebar Styles */
+.profile-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.profile-email {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    color: #333;
+    /* Darker icons */
+    font-size: 24px;
+    /* Larger icons like SVG */
+    display: inline-block;
+}
+
+.social-links a:hover {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Publications */
+/* No specific styles needed for simple p tags, inheriting from body/section */
+section p a {
+    font-weight: 400;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    text-align: right;
+    color: #b5bec9;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: #b5bec9;
+}
+
+/* News Section */
+.news-list {
+    margin-top: 10px;
+    padding-left: 20px;
+    /* Standard list styling */
+}
+
+.news-list li {
+    margin-bottom: 5px;
+}
