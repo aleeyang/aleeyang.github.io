@@ -183,3 +183,89 @@ footer a {
 .news-list li {
     margin-bottom: 5px;
 }
+
+/* Blog Styles */
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post-list li {
+    margin-bottom: 20px;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #828282;
+}
+
+.post-link {
+    font-size: 24px;
+    font-family: var(--font-header);
+    display: block;
+}
+
+.post-header {
+    margin-bottom: 30px;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+    font-family: var(--font-header);
+}
+
+.post-content {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.post-content h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.post-content h3 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Code Blocks */
+pre,
+code {
+    font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+}
+
+code {
+    padding: 2px 4px;
+    color: #c7254e;
+    /* Bootstrap-ish red for inline code */
+    background-color: #f9f2f4;
+}
+
+pre {
+    padding: 15px;
+    overflow: auto;
+    border: 1px solid #eee;
+}
+
+pre code {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+    border: 0;
+}
+
+/* MathJax */
+.MathJax_Display {
+    margin: 1em 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
