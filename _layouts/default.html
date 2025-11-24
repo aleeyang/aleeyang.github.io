@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="{{ " /style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ site.url }}/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;700&family=Oswald:wght@700&display=swap"
@@ -20,8 +20,8 @@
     <nav class="navbar">
         <div class="container">
             <div class="nav-links">
-                <a href="{{ " /" | relative_url }}">Home</a>
-                <a href="{{ " /blog.html" | relative_url }}">Blog</a>
+                <a href="{{ site.url }}/">Home</a>
+                <a href="{{ site.url }}/blog.html">Blog</a>
             </div>
         </div>
     </nav>
@@ -29,7 +29,7 @@
     <div class="container main-container">
         <!-- Sidebar (col-md-4 equivalent) -->
         <div class="sidebar">
-            <img src="{{ " /assets/img/avatar_new.jpg" | relative_url }}" alt="Yang Fu" class="profile-img">
+            <img src="{{ site.url }}/assets/img/avatar_new.jpg" alt="Yang Fu" class="profile-img">
             <div class="profile-info">
                 <div class="profile-name">Yang Fu</div>
                 <div class="profile-email">aleeyanger [at] gmail.com</div>
