@@ -1,118 +1,12 @@
-:root {
-    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    --font-header: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    --color-text: #24292e;
-    --color-link: #0366d6;
-    --color-link-hover: #035fc7;
-    --color-bg: #fff;
-    --color-meta: #586069;
-    --max-width: 980px;
-    --sidebar-width: 25%;
-    --main-width: 75%;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: var(--font-main);
-    color: var(--color-text);
-    background-color: var(--color-bg);
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.container {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 0 16px;
-}
-
-a {
-    color: var(--color-link);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--color-link-hover);
-    text-decoration: underline;
-}
-
-/* Navbar */
-.navbar {
-    background-color: #fff;
-    border-bottom: 1px solid #e1e4e8;
-    margin-bottom: 24px;
-    min-height: 52px;
-}
-
-.nav-links {
-    display: flex;
-    align-items: center;
-    height: 52px;
-}
-
-.nav-links a {
-    color: #586069;
-    padding: 0 16px;
-    font-size: 14px;
-    line-height: 20px;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.nav-links a:hover {
-    color: var(--color-link);
-}
-
-/* Main Layout */
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-}
-
-.sidebar {
-    width: 100%;
-    padding-right: 16px;
-    padding-left: 16px;
-    margin-bottom: 24px;
-}
-
-.main-content {
-    width: 100%;
-    padding-right: 16px;
-    padding-left: 16px;
-}
-
-@media (min-width: 992px) {
-    .sidebar {
-        width: var(--sidebar-width);
-        float: left;
-    }
-
-    .main-content {
-        width: var(--main-width);
-        float: left;
-    }
-}
-
-/* Sidebar Styles */
 .profile-img {
     width: 100%;
-    max-width: 200px;
     height: auto;
     display: block;
     margin-bottom: 16px;
-    border-radius: 6px;
+    border-radius: 0;
 }
 
 .profile-name {
-    font-family: var(--font-header);
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 6px;
@@ -122,7 +16,7 @@ a:hover {
 .profile-email {
     font-weight: 400;
     margin-bottom: 16px;
-    color: var(--color-meta);
+    color: #586069;
 }
 
 .social-links {
@@ -132,187 +26,19 @@ a:hover {
 }
 
 .social-links a {
-    color: #6a737d;
+    color: #586069;
     font-size: 18px;
     display: inline-block;
 }
 
 .social-links a:hover {
-    color: var(--color-link);
+    color: #0366d6;
     text-decoration: none;
 }
 
-/* Main Content Styles */
-h2 {
-    font-size: 20px;
-    margin-top: 0;
-    margin-bottom: 12px;
-    font-weight: 600;
-    line-height: 1.25;
-    padding-bottom: 6px;
-    border-bottom: 1px solid #e1e4e8;
-}
-
-section {
-    margin-bottom: 32px;
-}
-
-/* Publications */
-.publication {
-    margin-bottom: 20px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid #e1e4e8;
-}
-
-.publication:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.publication .title {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 6px;
-}
-
-.publication .authors {
-    margin-bottom: 6px;
-    font-size: 14px;
-}
-
-.publication .venue {
-    margin-bottom: 6px;
-    font-size: 14px;
-    color: var(--color-meta);
-}
-
-.publication .links {
-    margin-bottom: 6px;
-    font-size: 13px;
-}
-
-.publication .abstract {
-    font-size: 13px;
-    line-height: 1.5;
-    color: #586069;
-}
-
-/* News Section */
-.news-list {
-    margin-top: 6px;
-    padding-left: 18px;
-}
-
-.news-list li {
-    margin-bottom: 6px;
-    font-size: 14px;
-}
-
-/* Footer */
-footer {
-    margin-top: 40px;
+.copyright {
     text-align: right;
-    color: #6a737d;
+    color: #586069;
     font-size: 12px;
-    padding-top: 16px;
-    border-top: 1px solid #e1e4e8;
-}
-
-footer a {
-    color: #999;
-}
-
-footer a:hover {
-    color: var(--color-link);
-}
-
-/* Blog Styles */
-.post-list {
-    list-style: none;
-    padding: 0;
-}
-
-.post-list li {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #f0f0f0;
-}
-
-.post-meta {
-    font-size: 14px;
-    color: var(--color-meta);
-    margin-bottom: 8px;
-}
-
-.post-link {
-    font-size: 18px;
-    font-weight: 600;
-    display: block;
-    margin-bottom: 6px;
-}
-
-.post-header {
-    margin-bottom: 40px;
-}
-
-.post-title {
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 1.25;
-    margin-bottom: 12px;
-}
-
-.post-content {
-    margin-bottom: 40px;
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-.post-content h2 {
-    font-size: 24px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-.post-content h3 {
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
-/* Code Blocks */
-pre,
-code {
-    font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
-    font-size: 14px;
-    background-color: #f7f7f7;
-    border-radius: 3px;
-}
-
-code {
-    padding: 2px 4px;
-    color: #c7254e;
-    background-color: #f9f2f4;
-}
-
-pre {
-    padding: 15px;
-    overflow: auto;
-    border: 1px solid #eee;
-    margin: 20px 0;
-}
-
-pre code {
-    padding: 0;
-    color: inherit;
-    background-color: transparent;
-    border: 0;
-}
-
-/* MathJax */
-.MathJax_Display {
-    margin: 1em 0;
-    overflow-x: auto;
-    overflow-y: hidden;
+    margin-top: 32px;
 }
