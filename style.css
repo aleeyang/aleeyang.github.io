@@ -103,24 +103,11 @@ a:hover {
 
 /* Sidebar Styles */
 .profile-img {
-    width: 220px;
+    width: 330px;
+    max-width: 100%;
     height: auto;
     display: block;
-    margin-right: 15px;
-    margin-bottom: 10px;
-    float: left;
-}
-
-.profile-info {
-    overflow: hidden;
-}
-
-@media (max-width: 991px) {
-    .profile-img {
-        width: 100%;
-        margin-right: 0;
-        float: none;
-    }
+    margin-bottom: 20px;
 }
 
 .profile-name {
