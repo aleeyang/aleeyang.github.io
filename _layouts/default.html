@@ -6,11 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
     <link rel="stylesheet" href="{{ site.url }}/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;700&family=Oswald:wght@700&display=swap"
-        rel="stylesheet">
     <!-- MathJax -->
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
@@ -44,7 +42,7 @@
         </div>
 
         <!-- Main Content (col-md-8 equivalent) -->
-        <div class="main-content">
+        <div class="main-content markdown-body">
             {{ content }}
 
             <footer>
@@ -52,7 +50,7 @@
                     Copyright &copy;
                     <script>document.write(new Date().getFullYear())</script> Made by Yang Fu
                     <br>
-                    <a href="https://github.com/mavroudisv/plain-academic">Template from Plain Academic</a>
+                    <a href="https://github.com/mavroudisv/plain-academic">Template from Plain Academic</a>, inspired by <a href="https://toruowo.github.io/" target="_blank" rel="noreferrer">Toru Lin</a>
                 </p>
             </footer>
         </div>

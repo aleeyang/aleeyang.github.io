@@ -1,12 +1,12 @@
 :root {
-    --font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-header: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --color-text: #333;
-    --color-link: #0066cc;
-    --color-link-hover: #004488;
+    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    --font-header: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    --color-text: #24292e;
+    --color-link: #0366d6;
+    --color-link-hover: #035fc7;
     --color-bg: #fff;
-    --color-meta: #666;
-    --max-width: 1000px;
+    --color-meta: #586069;
+    --max-width: 980px;
     --sidebar-width: 25%;
     --main-width: 75%;
 }
@@ -19,17 +19,17 @@ body {
     font-family: var(--font-main);
     color: var(--color-text);
     background-color: var(--color-bg);
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
 
 .container {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 16px;
 }
 
 a {
@@ -45,21 +45,21 @@ a:hover {
 /* Navbar */
 .navbar {
     background-color: #fff;
-    border-bottom: 1px solid #eaeaea;
-    margin-bottom: 40px;
-    min-height: 60px;
+    border-bottom: 1px solid #e1e4e8;
+    margin-bottom: 24px;
+    min-height: 52px;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 52px;
 }
 
 .nav-links a {
-    color: #333;
-    padding: 0 20px;
-    font-size: 16px;
+    color: #586069;
+    padding: 0 16px;
+    font-size: 14px;
     line-height: 20px;
     text-decoration: none;
     font-weight: 500;
@@ -73,20 +73,20 @@ a:hover {
 .main-container {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .sidebar {
     width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-bottom: 40px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-bottom: 24px;
 }
 
 .main-content {
     width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 @media (min-width: 992px) {
@@ -107,33 +107,33 @@ a:hover {
     max-width: 200px;
     height: auto;
     display: block;
-    margin-bottom: 30px;
-    border-radius: 4px;
+    margin-bottom: 16px;
+    border-radius: 6px;
 }
 
 .profile-name {
     font-family: var(--font-header);
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    line-height: 1.2;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    line-height: 1.25;
 }
 
 .profile-email {
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     color: var(--color-meta);
 }
 
 .social-links {
-    margin-top: 20px;
+    margin-top: 12px;
     display: flex;
-    gap: 15px;
+    gap: 12px;
 }
 
 .social-links a {
-    color: #666;
-    font-size: 20px;
+    color: #6a737d;
+    font-size: 18px;
     display: inline-block;
 }
 
@@ -144,24 +144,24 @@ a:hover {
 
 /* Main Content Styles */
 h2 {
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 0;
-    margin-bottom: 20px;
-    font-weight: 700;
-    line-height: 1.3;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e1e4e8;
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 32px;
 }
 
 /* Publications */
 .publication {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e1e4e8;
 }
 
 .publication:last-child {
@@ -171,52 +171,52 @@ section {
 }
 
 .publication .title {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
 }
 
 .publication .authors {
-    margin-bottom: 8px;
-    font-size: 15px;
+    margin-bottom: 6px;
+    font-size: 14px;
 }
 
 .publication .venue {
-    margin-bottom: 8px;
-    font-size: 15px;
+    margin-bottom: 6px;
+    font-size: 14px;
     color: var(--color-meta);
 }
 
 .publication .links {
-    margin-bottom: 8px;
-    font-size: 14px;
+    margin-bottom: 6px;
+    font-size: 13px;
 }
 
 .publication .abstract {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #555;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #586069;
 }
 
 /* News Section */
 .news-list {
-    margin-top: 10px;
-    padding-left: 20px;
+    margin-top: 6px;
+    padding-left: 18px;
 }
 
 .news-list li {
-    margin-bottom: 10px;
-    font-size: 15px;
+    margin-bottom: 6px;
+    font-size: 14px;
 }
 
 /* Footer */
 footer {
-    margin-top: 60px;
+    margin-top: 40px;
     text-align: right;
-    color: #999;
-    font-size: 14px;
-    padding-top: 20px;
-    border-top: 1px solid #eaeaea;
+    color: #6a737d;
+    font-size: 12px;
+    padding-top: 16px;
+    border-top: 1px solid #e1e4e8;
 }
 
 footer a {
@@ -246,10 +246,10 @@ footer a:hover {
 }
 
 .post-link {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .post-header {
@@ -257,10 +257,10 @@ footer a:hover {
 }
 
 .post-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 12px;
 }
 
 .post-content {
