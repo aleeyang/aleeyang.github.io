@@ -118,9 +118,9 @@ a:hover {
 
 .site-hero__media {
     flex: 0 0 auto;
-    width: 260px;
-    max-width: 32vw;
-    aspect-ratio: 3 / 2;
+    /* Keep this panel close to the small Apple-like hero card size. */
+    width: clamp(180px, 24vw, 220px);
+    aspect-ratio: 16 / 10;
     border-radius: 18px;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.35);
