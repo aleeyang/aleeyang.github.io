@@ -253,8 +253,7 @@ section {
 }
 
 #interests {
-    /* Make "Research Interests" sit on a clean band like Apple sections. */
-    --section-bg: #ffffff;
+    --section-bg: #f5f5f7;
 }
 
 #highlights {
