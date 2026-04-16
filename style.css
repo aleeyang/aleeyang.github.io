@@ -383,6 +383,7 @@ section p a {
 }
 
 .pub-card {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -393,6 +394,23 @@ section p a {
     border-radius: 16px;
     background: #fbfbfd;
     transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+
+.corner-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 96px;
+    height: auto;
+    opacity: 0.9;
+    pointer-events: none; /* purely decorative */
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .corner-logo {
+        width: 84px;
+    }
 }
 
 @media (hover: hover) and (pointer: fine) {
