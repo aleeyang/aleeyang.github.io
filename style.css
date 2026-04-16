@@ -119,7 +119,7 @@ a:hover {
 .site-hero__media {
     flex: 0 0 auto;
     /* Keep this panel close to the small Apple-like hero card size. */
-    width: clamp(220px, 28vw, 280px);
+    width: clamp(280px, 34vw, 360px);
     aspect-ratio: 16 / 10;
     border-radius: 0;
     overflow: hidden;
@@ -143,7 +143,7 @@ a:hover {
 @media (min-width: 900px) {
     .page {
         display: grid;
-        grid-template-columns: 1fr clamp(220px, 28vw, 280px);
+        grid-template-columns: 1fr clamp(280px, 34vw, 360px);
         column-gap: 28px;
         align-items: start;
     }
