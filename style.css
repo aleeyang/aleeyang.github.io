@@ -56,6 +56,57 @@ a:hover {
     backdrop-filter: saturate(180%) blur(20px);
 }
 
+.hero-strip {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+}
+
+.hero-strip::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    background: #0f0f10;
+    z-index: -1;
+}
+
+.hero-strip img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* crop, no distortion */
+    /* Pan vertically over time so the user can see the whole image content. */
+    object-position: 50% 0%;
+    filter: saturate(105%) contrast(105%);
+    animation: hero-pan 14s ease-in-out infinite alternate;
+}
+
+@media (max-width: 768px) {
+    .hero-strip {
+        height: 170px;
+    }
+}
+
+@keyframes hero-pan {
+    from {
+        object-position: 50% 0%;
+    }
+    to {
+        object-position: 50% 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-strip img {
+        animation: none;
+        object-position: center;
+    }
+}
+
 .nav-inner {
     display: flex;
     align-items: center;
@@ -191,6 +242,57 @@ section {
     h2 {
         font-size: 28px;
     }
+}
+
+/* Full-bleed section bands (Apple Research-like). */
+.content section {
+    position: relative;
+    padding: 26px 0;
+    margin-bottom: 0;
+}
+
+.content section::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    background: var(--section-bg, transparent);
+    z-index: -1;
+}
+
+/* Alternate backgrounds per module. */
+#about {
+    --section-bg: #ffffff;
+}
+
+#interests {
+    /* Make "Research Interests" sit on a clean band like Apple sections. */
+    --section-bg: #ffffff;
+}
+
+#highlights {
+    --section-bg: #ffffff;
+}
+
+#publications {
+    --section-bg: #f5f5f7;
+}
+
+/* Title underline (Apple Research-like). */
+.content section > h2,
+.content .section-head h2 {
+    display: inline-block;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* Slightly stronger underline for the "Research Interests" module title. */
+#interests > h2 {
+    border-bottom-color: rgba(0, 0, 0, 0.18);
 }
 
 /* Section head (Apple-like) */
