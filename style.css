@@ -1,11 +1,12 @@
 :root {
-    --font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-header: 'Oswald', sans-serif;
-    --color-text: #222;
+    /* Apple-like system font stack (SF on macOS/iOS). */
+    --font-main: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-header: var(--font-main);
+    --color-text: #1d1d1f;
     --color-link: #0066cc;
     --color-link-hover: #004488;
     --color-bg: #fff;
-    --color-meta: #666;
+    --color-meta: #6e6e73;
     --max-width: 1170px;
     --sidebar-width: 33.33333333%;
     --main-width: 66.66666667%;
@@ -19,11 +20,13 @@ body {
     font-family: var(--font-main);
     color: var(--color-text);
     background-color: var(--color-bg);
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -44,29 +47,35 @@ a:hover {
 
 /* Navbar */
 .navbar {
-    background-color: #222;
-    border-color: #080808;
-    margin-bottom: 20px;
-    min-height: 50px;
-    border: 1px solid transparent;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.82);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    margin-bottom: 28px;
+    min-height: 44px;
+    backdrop-filter: saturate(180%) blur(20px);
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 44px;
+    gap: 14px;
 }
 
 .nav-links a {
-    color: #9d9d9d;
-    padding: 15px;
-    font-size: 14px;
+    color: #1d1d1f;
+    padding: 12px 10px;
+    font-size: 13px;
+    font-weight: 500;
     line-height: 20px;
     text-decoration: none;
 }
 
 .nav-links a:hover {
-    color: #fff;
+    color: var(--color-link);
+    text-decoration: none;
 }
 
 /* Main Layout */
@@ -111,10 +120,11 @@ a:hover {
 }
 
 .profile-name {
-    font-family: sans-serif;
+    font-family: var(--font-header);
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 5px;
+    letter-spacing: -0.02em;
 }
 
 .profile-email {
@@ -141,15 +151,23 @@ a:hover {
 
 /* Main Content Styles */
 h2 {
-    font-size: 30px;
+    font-family: var(--font-header);
+    font-size: 34px;
     margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: 500;
-    line-height: 1.1;
+    margin-bottom: 14px;
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
 }
 
 section {
     margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 28px;
+    }
 }
 
 /* Publications */
@@ -167,6 +185,31 @@ section p a {
     border: 1px solid rgba(0, 0, 0, 0.06);
     border-radius: 16px;
     background: #fbfbfd;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .pub-card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(0, 0, 0, 0.10);
+        box-shadow: 0 14px 34px rgba(0, 0, 0, 0.10);
+        background: #ffffff;
+    }
+
+    .pub-card:hover .pub-card__media img {
+        transform: scale(1.01);
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.14);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pub-card {
+        transition: none;
+    }
+
+    .pub-card__media img {
+        transition: none;
+    }
 }
 
 .pub-card__text {
@@ -186,18 +229,12 @@ section p a {
     border-radius: 14px;
     border: 1px solid rgba(0, 0, 0, 0.06);
     box-shadow: 0 10px 26px rgba(0, 0, 0, 0.10);
+    transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
-/* Larger featured media (EffectErase). */
+/* Featured card keeps same media size as others; only tweaks alignment. */
 .pub-card--feature {
     align-items: flex-start;
-}
-
-.pub-card--feature .pub-card__media img {
-    width: 460px;
-    max-width: 48vw;
-    border-radius: 18px;
-    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.10);
 }
 
 @media (max-width: 768px) {
