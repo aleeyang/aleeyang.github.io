@@ -16,30 +16,41 @@
 
     <nav class="navbar">
         <div class="container">
-            <div class="nav-links">
-                <a href="{{ "/" | relative_url }}">Home</a>
-                <a href="{{ "/blog.html" | relative_url }}">Blog</a>
+            <div class="nav-inner">
+                <a class="nav-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+                <div class="nav-links">
+                    <a href="{{ "/" | relative_url }}">Home</a>
+                    <a href="{{ "/blog.html" | relative_url }}">Blog</a>
+                </div>
             </div>
         </div>
     </nav>
 
-    <div class="container main-container">
-        <div class="sidebar">
-            <img src="{{ "/assets/img/avatar_new.jpg" | relative_url }}" alt="Yang Fu" class="profile-img">
-            <div class="profile-info">
-                <div class="profile-name">Yang Fu</div>
-                <div class="profile-email">aleeyanger [at] gmail.com</div>
+    <div class="container page">
+        <header class="site-hero">
+            <img src="{{ "/assets/img/avatar_new.jpg" | relative_url }}" alt="{{ site.title }}" class="site-hero__avatar">
+            <div class="site-hero__meta">
+                <h1 class="site-hero__title">{{ site.title }}</h1>
+                <p class="site-hero__subtitle">{{ site.description }}</p>
 
-                <div class="social-links">
-                    <a href="https://github.com/aleeyang" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://x.com/haha19991372305" title="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="https://scholar.google.com/citations?user=Greu79UAAAAJ&hl" title="Google Scholar"><i
-                            class="fas fa-graduation-cap"></i></a>
+                <div class="site-hero__links">
+                    <a class="icon-link" href="mailto:aleeyanger@gmail.com" title="Email" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a class="icon-link" href="https://github.com/aleeyang" title="GitHub" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="icon-link" href="https://x.com/haha19991372305" title="Twitter" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="icon-link" href="https://scholar.google.com/citations?user=Greu79UAAAAJ&hl" title="Google Scholar" aria-label="Google Scholar">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
                 </div>
             </div>
-        </div>
+        </header>
 
-        <div class="main-content">
+        <main class="content">
             {{ content }}
 
             <footer>
@@ -50,7 +61,7 @@
                     <a href="https://github.com/mavroudisv/plain-academic">Template from Plain Academic</a>
                 </p>
             </footer>
-        </div>
+        </main>
     </div>
 
 </body>
