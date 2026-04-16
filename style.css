@@ -103,12 +103,37 @@ a:hover {
 
 /* Hero (Apple Research-like) */
 .site-hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 28px;
     padding: 18px 0 10px;
     margin-bottom: 18px;
 }
 
 .site-hero__meta {
+    flex: 1 1 auto;
     min-width: 0;
+}
+
+.site-hero__media {
+    flex: 0 0 auto;
+    width: 360px;
+    max-width: 40vw;
+    aspect-ratio: 16 / 9;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: #fbfbfd;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.10);
+}
+
+.site-hero__image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; /* crop, no distortion */
+    object-position: center;
 }
 
 .site-hero__title {
@@ -145,6 +170,15 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    .site-hero {
+        flex-direction: column;
+    }
+
+    .site-hero__media {
+        width: 100%;
+        max-width: 100%;
+    }
+
     .site-hero__title {
         font-size: 34px;
     }
