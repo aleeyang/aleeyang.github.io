@@ -443,11 +443,11 @@ section p a {
     position: absolute;
     top: 12px;
     left: 12px;
-    padding: 8px 10px;
-    border-radius: 14px;
-    background: rgba(255, 255, 255, 0.92);
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
     pointer-events: none;
     z-index: 2;
 }
@@ -463,7 +463,6 @@ section p a {
     .corner-badge {
         top: 10px;
         left: 10px;
-        padding: 7px 9px;
     }
 
     .corner-logo {
@@ -518,6 +517,12 @@ section p a {
 /* Featured card keeps same media size as others; only tweaks alignment. */
 .pub-card--feature {
     align-items: flex-start;
+    padding-top: 64px;
+}
+
+.pub-card--feature .corner-badge {
+    top: 16px;
+    left: 18px;
 }
 
 @media (max-width: 768px) {
