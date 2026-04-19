@@ -439,19 +439,33 @@ section p a {
     transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease, background-color 180ms ease;
 }
 
-.corner-logo {
+.corner-badge {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    /* Keep as a corner decoration, not a dominant element. */
-    width: 160px;
-    height: auto;
-    opacity: 0.9;
-    pointer-events: none; /* purely decorative */
+    top: 12px;
+    left: 12px;
+    padding: 8px 10px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+    pointer-events: none;
     z-index: 2;
 }
 
+.corner-logo {
+    display: block;
+    width: 160px;
+    height: auto;
+    opacity: 0.9;
+}
+
 @media (max-width: 768px) {
+    .corner-badge {
+        top: 10px;
+        left: 10px;
+        padding: 7px 9px;
+    }
+
     .corner-logo {
         width: 140px;
     }
