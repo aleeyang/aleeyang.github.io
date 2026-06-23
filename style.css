@@ -183,6 +183,10 @@ a:active {
   margin-bottom: 0;
 }
 
+.github {
+  vertical-align: middle;
+}
+
 footer {
   color: #4a4a4a;
   font-size: 0.95em;
