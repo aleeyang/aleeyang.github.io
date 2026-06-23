@@ -213,6 +213,15 @@ footer a:hover {
   line-height: 1.15;
 }
 
+.blog-iframe {
+  width: 90.91%;
+  min-height: 1500px;
+  border: 0;
+  display: block;
+  transform: scale(1.1);
+  transform-origin: top left;
+}
+
 pre,
 code {
   font-family: Menlo, Consolas, "Liberation Mono", monospace;
@@ -252,6 +261,12 @@ pre {
     margin-left: 0;
     margin-top: 0.15rem;
     bottom: 0;
+  }
+
+  .blog-iframe {
+    min-height: 1200px;
+    transform: none;
+    width: 100%;
   }
 }
 
