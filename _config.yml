@@ -2,7 +2,6 @@ title: Yang Fu
 description: Yang Fu is a PhD student at Fudan University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.yangfu.site" # the base hostname & protocol for your site
-theme: jekyll-theme-primer # Optional, but we are using custom layout so this might not be needed, but good for defaults. Actually, let's stick to no theme or minimal.
 markdown: kramdown
 highlighter: rouge
 plugins:

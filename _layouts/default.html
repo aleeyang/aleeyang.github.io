@@ -2,70 +2,90 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="{{ site.url }}/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- MathJax -->
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/img/avatar_new.jpg" | relative_url }}">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css">
+  <link rel="stylesheet" href="{{ "/style.css" | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <aside class="column is-2_5">
+          <div class="sticky profile-panel">
+            <figure class="image profile-image">
+              <img src="{{ "/assets/img/avatar_new.jpg" | relative_url }}" alt="{{ site.title }}">
+            </figure>
 
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-inner">
-                <a class="nav-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-                <div class="nav-links">
-                    <a href="{{ "/" | relative_url }}">Home</a>
-                    <a href="{{ "/blog.html" | relative_url }}">Blog</a>
-                </div>
+            <div class="content">
+              <h2 class="profile-name">{{ site.title }}</h2>
+              <p>
+                <b>Fudan University</b><br>
+                PhD Student<br>
+              </p>
             </div>
-        </div>
-    </nav>
 
-    <div class="container page">
-        <header class="site-hero">
-            <div class="site-hero__meta">
-                <h1 class="site-hero__title">{{ site.title }}</h1>
-                <p class="site-hero__subtitle">{{ site.description }}</p>
-
-                <div class="site-hero__links">
-                    <a class="icon-link" href="mailto:aleeyanger@gmail.com" title="Email" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a class="icon-link" href="https://github.com/aleeyang" title="GitHub" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a class="icon-link" href="https://x.com/haha19991372305" title="Twitter" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a class="icon-link" href="https://scholar.google.com/citations?user=Greu79UAAAAJ&hl" title="Google Scholar" aria-label="Google Scholar">
-                        <i class="fas fa-graduation-cap"></i>
-                    </a>
-                </div>
+            <div class="social" aria-label="Social links">
+              <a href="https://github.com/aleeyang" target="_blank" rel="noopener" aria-label="GitHub">
+                <span class="fab fa-github fa-2x"></span>
+              </a>
+              <a href="https://scholar.google.com/citations?user=Greu79UAAAAJ&hl" target="_blank" rel="noopener" aria-label="Google Scholar">
+                <span class="fa-solid fa-graduation-cap fa-2x"></span>
+              </a>
+              <a href="https://x.com/haha19991372305" target="_blank" rel="noopener" aria-label="Twitter">
+                <span class="fab fa-twitter fa-2x"></span>
+              </a>
+              <a href="mailto:aleeyanger@gmail.com" aria-label="Email">
+                <span class="fa-regular fa-envelope fa-2x"></span>
+              </a>
             </div>
-            <div class="site-hero__media" aria-hidden="true">
-                <img class="site-hero__image" src="{{ "/assets/img/avatar_new.jpg" | relative_url }}" alt="" role="presentation">
-            </div>
-        </header>
 
-        <main class="content">
+            <nav id="sidebar" class="menu sticky is-hidden-mobile" aria-label="Quick Links">
+              <p class="menu-label"><b>Quick Links</b></p>
+              <ul class="menu-list">
+                <li><a href="#intro">About Me</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#talks">Talks</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="{{ "/blog.html" | relative_url }}">Blog</a></li>
+              </ul>
+            </nav>
+
+            <div class="slogon">
+              <p>Welcome to my homepage!</p>
+            </div>
+          </div>
+        </aside>
+
+        <main class="column right-panel">
+          <div class="content">
             {{ content }}
 
+            <hr>
             <footer>
-                <p class="copyright">
-                    Copyright &copy;
-                    <script>document.write(new Date().getFullYear())</script> Made by Yang Fu
-                    <br>
-                    <a href="https://github.com/mavroudisv/plain-academic">Template from Plain Academic</a>
-                </p>
+              <p>
+                {{ site.title }}
+                <a href="https://github.com/aleeyang" target="_blank" rel="noopener"><span class="fab fa-github"></span></a>
+                <a href="https://scholar.google.com/citations?user=Greu79UAAAAJ&hl" target="_blank" rel="noopener"><span class="fa-solid fa-graduation-cap"></span></a>
+                <a href="https://x.com/haha19991372305" target="_blank" rel="noopener"><span class="fab fa-twitter"></span></a>
+              </p>
+              <p>&copy; modified from <a href="https://pq-yang.github.io/" target="_blank" rel="noopener">Peiqing Yang's website</a></p>
             </footer>
+          </div>
         </main>
+      </div>
     </div>
-
+  </section>
 </body>
 
 </html>
