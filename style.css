@@ -141,19 +141,6 @@ a {
   color: rgb(128, 129, 129);
 }
 
-.visitor-counter {
-  display: inline-block;
-  margin-top: 1.35rem;
-  text-decoration: none;
-}
-
-.visitor-counter img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border: 0;
-}
-
 .right-panel a:hover,
 .details a:hover {
   color: rgb(238, 76, 44);
