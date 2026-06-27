@@ -141,6 +141,12 @@ a {
   color: rgb(128, 129, 129);
 }
 
+.slogon-quote {
+  margin-top: 0.75rem;
+  color: #6f7070;
+  line-height: 1.75;
+}
+
 .right-panel a:hover,
 .details a:hover {
   color: rgb(238, 76, 44);
