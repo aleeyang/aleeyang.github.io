@@ -176,8 +176,30 @@ a:active {
   font-size: 20px;
 }
 
+.publication {
+  align-items: center;
+}
+
+.publication .image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.publication .image a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
 .publication .image img {
   width: 100%;
+  height: 100%;
+  object-fit: contain;
   display: block;
 }
 
